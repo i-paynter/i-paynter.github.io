@@ -6,7 +6,7 @@
  </section>
 
 <section>
- <h3>Professional Objective Statement</h3>
+ <h2>Professional Objective Statement</h2>
  <p></p>
 </section>
 
