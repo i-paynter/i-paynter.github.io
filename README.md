@@ -1,5 +1,3 @@
-<html>
-<body>
 
  <section>
    <h1>Isabel Paynter</h1>
@@ -31,5 +29,4 @@
 </section>
 
 
-</body>
-</html>
+
