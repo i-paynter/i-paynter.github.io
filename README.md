@@ -1,13 +1,15 @@
 
- <section>
+ <header>
    <h1>Isabel Paynter</h1>
    <p>Email: is997932@ucf.edu</p>
    <p>LinkedIn: https://www.linkedin.com/in/isabel-paynter-475256286/</p>
- </section>
+  
+ </header>
 
+<main>
 <br>
 <section>
- <h2>Professional Objective Statement</h2>
+ <h3>Professional Objective Statement</h3>
  <p>Motivated and dedicated I.T. undergraduate student seeking work to apply academic knowledge while gaining hands-on experience. I aspire to develop my technical and database management skills while contributing to a major company.</p>
 </section>
 
@@ -22,8 +24,7 @@
 <br>
  <section>
   <h3>Work Experience</h3>
-  <p>Deli Clerk - Publix Super Markets<br>July 2024 - Present<br>Receive and organize Deli products, create custom sandwiches and platters, and stock cases while working with my team to process online and in-person orders accurately and in a timely manner. Providing excellent customer service while answering questions or recommending a product. </p> 
-  
+  <p>Prep Cook - Red Lobster<br>May 2022- Present<br>Communicate effectively with my team to snure customer satisfaction with meals. Multitask responsibiliteis to ensure opening and closing is smooth. Maintain a clean and organized work environment for team and customers.</p>
  </section>
 
 
@@ -41,3 +42,4 @@
 
 
 
+</main>
