@@ -1,3 +1,5 @@
+<!DOCTYPE HTML>
+<html>
  <head>
    <h1>Isabel Paynter</h1>
   <ul>Email: is997932@ucf.edu</ul>
@@ -5,4 +7,6 @@
  </head>
 
 <h2>Professional Objective Statement</h2>
-<body></body>
+
+
+</html>
