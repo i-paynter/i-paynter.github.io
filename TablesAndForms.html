@@ -6,13 +6,57 @@
 
   <form>
     <fieldset>
-      <legend>
-        <h2>Contact Information</h2>
-      </legend>
-      <br>
-      <label> Name: <input type="text" name="name" required> </label>
-      <br>
-      <label>Phone: <input type="tel" name = "phone" required></label>
-      <br>
-    </fieldset>
-  </form>
+  <legend> 
+    <h2> Contact Information </h2>
+  </legend>
+  <label> Name: <input type="text" name="name" required> </label>
+  <br>
+  <label> Phone: <input type="tel" name = "phone" required></label>
+  <br>
+  <label> Email: <input type="email" name="email" required></label>
+  </fieldset>
+<br>
+  
+<br>
+<fieldset>
+ <legend> 
+   <h2> Select Pizza Size </h2> 
+ </legend> 
+  <label> Pizza Size: <select name="size" required>
+    <option value=""> Select one </option>
+    <option value="Small"> Small </option>
+    <option value="Medium"> Medium </option>
+    <option value="Large"> Large </option>
+    <option value="Extra large"> Extra Large </option>
+  </select>
+  </label>
+</fieldset>
+<br>
+  
+<br>
+ <fieldset>
+   <legend> 
+     <h2> Select Sauce </h2> 
+   </legend>
+   <label> <input type= "radio" name="sauce" value="Tomato" required> Tomato </label><br>
+   <label> <input type= "radio" name="sauce" value="Ranch"> Ranch </label><br>
+   <label> <input type= "radio" name="sauce" value="None"> None </label><br>
+ </fieldset>
+<br>
+
+<br>
+<fieldset>
+  <legend> 
+    <h2> Select Toppings</h2> 
+  </legend>
+  <label><input type = "checkbox" name = "toppings" value = "Pepperoni"> Pepperoni </label>
+  <label><input type = "checkbox" name = "toppings" value = "Sausage"> Sausage </label>
+  <label><input type = "checkbox" name = "toppings" value = "Brocoli"> Brocoli </label>
+  <label><input type = "checkbox" name = "toppings" value = "Mushrooms"> Mushrooms </label>
+  <label><input type = "checkbox" name = "toppings" value = "Chicken"> Chicken </label>
+  <label><input type = "checkbox" name = "toppings" value = "Onions"> Onions </label>
+  <label><input type = "checkbox" name = "toppings" value = "Peppers"> Peppers </label>
+  <label><input type = "checkbox" name = "toppings" value = "Olives"> Olives </label>
+</fieldset>
+<br>
+
