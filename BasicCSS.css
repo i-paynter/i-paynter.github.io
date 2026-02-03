@@ -17,3 +17,22 @@ th{
 ol ::marker{content: "0" counter(list-item)". ";}
 
 tr:(one) {background-color: lightgray;}
+
+#paragraph2{
+  width: 800px;
+  border: 5 px solid green;
+  padding: 30px;
+  margin: 20px;
+  line-height: 30px;
+  background-color: white;
+}
+
+.blue{
+  color: white;
+  width: 1600px;
+  border: 5px solid black;
+  padding: 10 px;
+  background-color: navy;
+  margin: 10 px;
+}
+a[href="http://www.w3schools.com"]{color: green;}
