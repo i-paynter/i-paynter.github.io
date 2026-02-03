@@ -1,4 +1,4 @@
-body{ background-color: lightblue;}
+.body{ background-color: lightblue;}
 h1{
   color: black;
   text-align: center;
@@ -13,3 +13,7 @@ th{
   background-color: lightgray;
   font-weight: bold;
 }
+
+ol ::marker{content: "0" counter(list-item)". ";}
+
+tr:(one) {background-color: lightgray;}
