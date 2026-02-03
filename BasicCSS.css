@@ -4,3 +4,12 @@ h1{
   text-align: center;
   font-size: 60px;
 }
+h2{color: black}
+table,th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th{
+  background-color: lightgray;
+  font-weight: bold;
+}
