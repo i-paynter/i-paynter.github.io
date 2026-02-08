@@ -20,3 +20,27 @@ body{
   background-color: gold;
   padding: 20px;
 }
+
+#jumpMenu a {
+  color:Menu;
+  text-decoration: underline;
+}
+
+#jumpMenu a:hover {text-decoration: underline;}
+
+header{
+  position: fixed;
+  top: 0;
+  left: var(--jump-width);
+  width: calc(100% - var(--jump-width));
+  height: var(--header-height);
+  background-color: red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  z-index: 10;
+  border-bottom: 1px solid green;
+}
