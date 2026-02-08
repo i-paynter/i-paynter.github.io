@@ -44,3 +44,16 @@ header{
   z-index: 10;
   border-bottom: 1px solid green;
 }
+
+main{
+  margin-left: var(--jump-width);
+  padding-top: calc(var(--header-height) + 20px);
+}
+
+#container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
