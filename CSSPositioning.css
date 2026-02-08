@@ -2,3 +2,21 @@
   --jump-width: 15%;
   --header-height: 70px;
 }
+
+*{box-sizing: border-box;}
+
+body{
+  margin:0;
+  font-family: Arial;
+}
+
+#jumpMenu{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: var(--jump-width);
+  height: 100vh;
+  color: black;
+  background-color: gold;
+  padding: 20px;
+}
