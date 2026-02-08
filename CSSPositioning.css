@@ -57,3 +57,20 @@ main{
   padding: 20px;
   justify-content: center;
 }
+
+article {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#thanks {
+  position: fixed;
+  background-color: lightblue;
+  color: navy;
+  bottom: 20px; 
+  right: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 15px;
+}
