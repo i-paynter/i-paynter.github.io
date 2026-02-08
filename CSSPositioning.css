@@ -16,7 +16,6 @@ body{
   top: 0;
   width: var(--jump-width);
   height: 100vh;
-  color: black;
   background-color: gold;
   padding: 20px;
 }
@@ -35,6 +34,8 @@ header{
   width: calc(100% - var(--jump-width));
   height: var(--header-height);
   background-color: red;
+  z-index: 10;
+  border-bottom: 2px solid black;
 
   display: flex;
   justify-content: center;
@@ -68,9 +69,9 @@ article {
   position: fixed;
   background-color: lightblue;
   color: navy;
-  bottom: 20px; 
-  right: 20px;
-  padding: 10px 15px;
-  border-radius: 20px;
-  font-size: 15px;
+  bottom: 0; 
+  right: 0;
+  padding: 25px 40px;
+  border-radius: 0;
+  font-size: 24px;
 }
