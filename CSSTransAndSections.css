@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  font-family: Arial;
+}
+
+nav#menuItems{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 180px;
+  height: 100vh;
+  background-color: #000;
+  padding-top: 10px;
+}
