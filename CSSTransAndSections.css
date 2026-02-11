@@ -1,5 +1,5 @@
 :root { 
-  --jump-width: 15%;
+  --jump-width: 220px;
   --header-height: 70px;
 }
 
@@ -18,13 +18,13 @@ body {
   top: 0;
   width: var(--jump-width);
   height: 100vh;
-  background-color: gold;
+  background-color: black;
   padding: 20px;
-  display: none;
 }
 
 #jumpMenu li {
   list-style: none;
+  position: relative;
 }
 
 #jumpMenu li a {
@@ -76,10 +76,9 @@ main {
 
 article {
   background-color: white;
-  text-color: gray;
+  color: gray;
   padding: 15px;
-  border-radius: 5px;
-  color: black;                     
+  border-radius: 5px;                     
   max-height: 300px;
   overflow: hidden;
   transition: color 2s ease, max-height 2s ease;
@@ -116,7 +115,7 @@ a[href*="google.com"]::after {
 }
 
 nav button {
-  background-color: blue;
+  background-color: MediumBlue;
   padding: 10px 15px;
   cursor: pointer;
   border: none;
