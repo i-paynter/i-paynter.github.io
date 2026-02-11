@@ -44,3 +44,51 @@ body {
 #jumpMenu:hover {
   display: block;
 }
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: var(--jump-width);
+  width: calc(100% - var(--jump-width));
+  height: var(--header-height);
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid green;
+  z-index: 10;
+}
+
+main {
+  margin-left: var(--jump-width);
+  padding-top: calc(var(--header-height) + 20px);
+
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+article {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;                     
+  max-height: 180px;
+  overflow: hidden;
+  transition: color 2s ease, max-height 2s ease;
+}
+
+article:hover {
+  color: black;                    
+  max-height: 1000px;              
+}
+#recentArticles:hover + #jumpMenu,
+#jumpMenu:hover {
+  display: block;
+}
