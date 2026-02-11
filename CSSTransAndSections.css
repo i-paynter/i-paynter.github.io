@@ -116,7 +116,7 @@ a[href*="google.com"]::after {
 }
 
 nav button {
-  background-color: green;
+  background-color: blue;
   padding: 10px 15px;
   cursor: pointer;
   border: none;
