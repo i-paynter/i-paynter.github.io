@@ -76,10 +76,11 @@ main {
 
 article {
   background-color: white;
+  text-color: gray;
   padding: 15px;
   border-radius: 5px;
   color: black;                     
-  max-height: 180px;
+  max-height: 300px;
   overflow: hidden;
   transition: color 2s ease, max-height 2s ease;
 }
@@ -91,4 +92,48 @@ article:hover {
 #recentArticles:hover + #jumpMenu,
 #jumpMenu:hover {
   display: block;
+}
+
+article:hover {
+  color: black;                    
+  max-height: 1000px;              
+}
+
+article p:first-of-type::first-letter {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+}
+
+a[href*="google.com"]::after {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 6px;
+  background-image: url("arrow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+nav button {
+  background-color: green;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+nav button:hover {
+  background-color: lightblue;
+}
+
+#thanks {
+  position: fixed;
+  background-color: lightblue;
+  color: navy;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 15px;
 }
